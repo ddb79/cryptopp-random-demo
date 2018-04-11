@@ -29,9 +29,11 @@ int main() {
     if (size > 128) {
         fmtSize = 128;
     }
+    // print the beginning of the hex number in hex
     std::cout << "rand1: " << fmtBytesToHex(rand, fmtSize) << std::endl;
 
     if (size > 128) {
+        // print the ending of the hex number in hex
         std::cout << "rand2: " << fmtBytesToHex(&rand[size-128], 128) << std::endl;
     }
 
