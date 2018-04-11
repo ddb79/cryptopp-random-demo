@@ -3,7 +3,7 @@
 #include <sstream>
 #include <iomanip>
 
-#include "../cryptopp/osrng.h"
+#include "cryptopp/osrng.h"
 using namespace CryptoPP;
 using CryptoPP::AutoSeededRandomPool;
 
