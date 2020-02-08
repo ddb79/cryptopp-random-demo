@@ -9,8 +9,8 @@ clean :
 	rm -f $(wildcard *.o *.exe)
 
 main.exe : main.o
-	g++ $(LDFLAGS) -o main.exe main.o cryptopp/libcryptopp.a
+	g++ $(LDFLAGS) -o main.exe main.o ../cryptopp/libcryptopp.a
 
 main.o : main.cpp
-	g++ $(CXXFLAGS) -Icryptopp -c main.cpp
+	g++ $(CXXFLAGS) -I../cryptopp -c main.cpp
 
