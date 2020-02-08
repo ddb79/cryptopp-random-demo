@@ -10,10 +10,11 @@ From the cygwin/linux/mac-osx terminal, do the following:
 - cd cryptopp
 - make
 - ./cryptest.exe v
+- should get: All tests passed!
 
 Now build and run this program:
 - cd 
-- git clone https://github.com/ddb79/crypto-random-demo
+- git clone https://github.com/ddb79/crypto-random-demo.git
 - cd crypto-random-demo
 - make
 - ./main.exe
